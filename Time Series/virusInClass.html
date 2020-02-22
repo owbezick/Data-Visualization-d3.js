@@ -1,0 +1,122 @@
+<body>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+
+  <style>
+    * {
+      font-family: sans-serif;
+    }
+    .axis--x path {
+      stroke: black;
+
+    }
+
+    .line {
+      fill: none;
+      stroke: steelblue;
+      stroke-width: 1.5px;
+    }
+  </style>
+  <script>
+    var margin = {top: 20, right: 20, bottom: 30, left: 40},
+      width = 960 - margin.left - margin.right,
+      height = 500 - margin.top - margin.bottom;
+
+      // append the svg object to the body of the page
+      // append a 'group' element to 'svg'
+      // moves the 'group' element to the top left margin
+      var svg = d3.select("body").append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform",
+            "translate(" + margin.left + "," + margin.top + ")");
+
+  //d3.timeParse
+  //%U = week of the year
+  //%Y = year
+  var parseTime = d3.timeParse("%Y %U");
+
+  var x = d3.scaleTime().range([0, width]),
+      y = d3.scaleLinear().range([height, 0]),
+      z = d3.scaleOrdinal(d3.schemeCategory10);
+
+  //d3.line
+  //TODO define the line functions
+  var line = d3.line()
+  .curve(d3.curveLinear)
+  .x(d => x(d.date))
+  .y(d => y(d.cases));
+
+  var averageline = d3.line()
+  .curve(d3.curveCatmullRom)
+  .x(d => x(d.value.date))
+  .y(d => y(d.value.mean));
+
+  data = d3.csv("wnvhumancases.csv").then(data => {
+      data.forEach(d => {
+        d.date = parseTime(d.Year + ' ' + d["Week Reported"]);
+        d.cases = +d["Positive Cases"];
+      });
+
+//console.log(data)
+// group by county
+      var counties = d3.nest()
+      .key(d => d.County)
+      .entries(data);
+//console.log(counties)
+// Average per county
+      var average = d3.nest()
+      .key(d => d.date)
+      .rollup(v => {
+        return {
+          date: v[0].date,
+          mean: d3.mean(v, d => d.cases)
+        }
+      })
+      .entries(data);
+
+//console.log(average)
+
+      average.sort((a, b) => d3.ascending(a.value.date, b.value.date));
+
+      x.domain(d3.extent(data, d => d.date));
+      y.domain([0,d3.max(counties, c => d3.max(c.values, d => d.cases))]);
+      z.domain(counties.map(c =>  c.key));
+
+      svg.append("g")
+          .attr("class", "axis axis--x")
+          .attr("transform", "translate(0," + height + ")")
+          .call(d3.axisBottom(x));
+
+          svg.append("g")
+          .attr("class", "axis axis--y")
+          .call(d3.axisLeft(y))
+          .append("text")
+              .attr("transform", "rotate(-90)")
+              .attr("y", 6)
+              .attr("dy", "0.71em")
+              .attr("fill", "#000")
+              .text("Number of confirmed West Nile Virus Cases");
+
+      var county = svg.selectAll(".county")
+          .data(counties)
+          .enter().append("g")
+          .attr("class", "county");
+// for each county, figure out for each day what the total number of cases were
+      county.append("path")
+          .attr("class", "line")
+          .attr("d", d => line(d.values))
+          .style("stroke", d =>  z(d.key));
+
+      svg.append("path")
+          .datum(average)
+          .attr("fill", "none")
+          .attr("stroke", "black")
+          .attr("stroke-linejoin", "round")
+          .attr("stroke-linecap", "round")
+          .attr("stroke-width", 2)
+          .style("stroke-dasharray", "5 5")
+          .attr("d", averageline);
+
+  });
+</script>

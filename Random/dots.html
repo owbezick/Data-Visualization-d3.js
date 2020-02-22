@@ -1,0 +1,51 @@
+<!--
+fundamentals2
+Owen Bezick & Calvin Spencer
+-->
+
+<body>
+  <svg id="chart" width = "1000", height = "300"></svg>
+  <script src = "https://d3js.org/d3.v5.min.js" ></script>
+  <script>
+    const x_placement = [];
+    for(let i = 0; i <= 10; i++){
+      x_placement.push(50 + (i*100));
+    }
+    const colors = [];
+    const radius = [92, 56, 14, 73, 22, 38, 93, 45, 55];
+
+    for(let i = 0; i <= 10; i++){
+      colors.push(d3.interpolateTurbo(1/[i]));
+    }
+
+    d3.select("#chart")
+    .selectAll("circle")
+    .data(radius)
+    .enter()
+    .append("circle")
+      .attr("r", d => d/2)
+    .data(x_placement)
+      .attr("cx", d => d)
+      .attr("cy", "100")
+      .style("fill", "blue")
+
+    setTimeout(function() {
+      d3.select("#chart")
+      .selectAll("circle")
+      .data(radius.sort())
+      .transition().duration(500)
+        .attr("r", d => d/2)
+         }, 2000)
+
+    setTimeout(function() {
+         d3.select("#chart")
+         .selectAll("circle")
+         .data(colors)
+          .transition().duration(5000)
+         .style("fill",d=>d)
+       }, 2500)
+
+       // Apparently, one cannot run multiple
+       // transitions on the same object at the same time?
+
+  </script>

@@ -1,0 +1,944 @@
+﻿TERM,CRN,SUB,NUM,COURSE_TITLE,TOTAL_ENTRIES,UNIQUE_STUDENTS,TREE1_BRANCH1,CURR_ENROLL,MAX_ENROLL
+201901,10029,AFR,101,Intro to Africana Studies,164,57,3,30,30
+201901,10533,AFR,221,Intro to Caribbean Studies,6,2,0,5,30
+201901,10502,AFR,282,African-Am Lit: 18th-19th Cent,45,18,0,6,15
+201901,10456,AFR,305,Major Thinkers:Robinson&Wynter,14,3,0,7,15
+201901,10519,AFR,331,African Feminisms,63,24,1,15,15
+201901,10221,AFR,400,Research Methods Afr Studies,11,4,0,4,15
+201901,10030,AFR,495,Africana Capstone,46,13,4,11,15
+201901,10306,ANT,101,Intro Cultural Anthropology,146,65,1,27,30
+201901,10222,ANT,108,Introduction to Archaeology,89,37,1,21,30
+201901,10226,ANT,205,Racism,209,83,4,26,30
+201901,10555,ANT,211,Anti-Semitism & Islamophobia,15,8,0,8,20
+201901,10220,ANT,219,Reproduction & Childrearing,87,35,0,22,30
+201901,10225,ANT,220,"Religion, Society & Culture",70,27,1,6,30
+201901,10210,ANT,275,"Monkeys, Apes, Humans",51,26,1,20,30
+201901,10223,ANT,290,Ethnographic East Asia,23,7,1,6,30
+201901,10448,ANT,323,Human Rights in Latin America,60,24,0,8,15
+201901,10224,ANT,377,Imaging the Earth,109,41,2,16,15
+201901,10554,ANT,388,Refugees & Forced Migrants,11,6,0,8,15
+201901,10305,ANT,490,Sr Colloquium in Anthropology,7,3,1,2,15
+201901,10092,ARB,101,Elementary Arabic I,62,22,3,17,20
+201901,10093,ARB,201,Intermediate Arabic I,33,9,0,8,20
+201901,10094,ARB,250,Gender & Sexuality in Mid East,100,43,2,20,30
+201901,10095,ARB,331,Visual Novels (Arab World),69,19,0,14,20
+201901,10457,ARB,332,North African Lit (in transl),39,14,1,5,30
+201901,10326,ART,101,Basic Drawing,196,84,0,15,14
+201901,10329,ART,101,Basic Drawing,125,61,1,14,14
+201901,10204,ART,102,Survey of Asian Art,82,35,1,19,30
+201901,10199,ART,103,Basic Painting,113,46,1,14,13
+201901,10330,ART,103,Basic Painting,158,61,5,15,13
+201901,10327,ART,105,Introduction to Print Media,105,37,1,12,12
+201901,10328,ART,107,Introduction to Works on Paper,96,33,2,14,12
+201901,10201,ART,111,Introduction to Digital Art,123,51,2,11,12
+201901,10202,ART,111,Introduction to Digital Art,172,72,4,12,12
+201901,10205,ART,124,Survey of American Art,52,23,0,8,30
+201901,10523,ART,128,Modern and Contemp Asian Art,84,33,0,18,30
+201901,10208,ART,216,Nineteenth-Century Painting,62,22,1,11,15
+201901,10206,ART,218,"A Modern Explosion of ""-Isms""",76,25,0,13,15
+201901,10442,ART,222,Painted Women-Women Painting,40,22,1,11,15
+201901,10207,ART,234,Contemp Art -Yesterday & Today,41,13,0,4,30
+201901,10441,ART,400,Perspectives in Art History,8,3,0,2,10
+201901,10203,ART,401,Senior Exhibition/Examination,37,9,2,10,10
+201901,10133,BIO,108,Human Biology,190,102,25,8,8
+201901,10134,BIO,108,Human Biology,101,53,6,8,8
+201901,10135,BIO,108,Human Biology,151,78,14,7,8
+201901,10136,BIO,108,Human Biology,65,33,5,8,8
+201901,10114,BIO,111,"Molecules, Genes, & Cells",47,39,10,16,16
+201901,10115,BIO,111,"Molecules, Genes, & Cells",53,33,1,14,16
+201901,10117,BIO,111,"Molecules, Genes, & Cells",48,34,4,16,16
+201901,10118,BIO,111,"Molecules, Genes, & Cells",127,75,21,16,16
+201901,10301,BIO,111,"Molecules, Genes, & Cells",77,53,9,15,16
+201901,10302,BIO,111,"Molecules, Genes, & Cells",88,59,16,16,16
+201901,10110,BIO,112,"Organisms,Evolution,Ecosystems",40,31,5,14,16
+201901,10112,BIO,112,"Organisms,Evolution,Ecosystems",47,30,5,15,16
+201901,10307,BIO,112,"Organisms,Evolution,Ecosystems",98,60,11,16,16
+201901,10308,BIO,112,"Organisms,Evolution,Ecosystems",81,52,7,15,16
+201901,10021,BIO,114,Integr Concepts in Biology II,93,42,7,16,16
+201901,10311,BIO,114,Integr Concepts in Biology II,122,61,11,15,16
+201901,10121,BIO,201,Genetics,69,36,4,15,16
+201901,10122,BIO,201,Genetics,47,30,1,9,16
+201901,10016,BIO,202,Microbiology,124,66,10,16,16
+201901,10018,BIO,202,Microbiology,100,62,7,16,16
+201901,10032,BIO,240,Biostats for Life Scientists,213,76,13,20,20
+201901,10033,BIO,240,Biostats for Life Scientists,208,78,7,20,20
+201901,10116,BIO,266,Synthetic Biology Discoveries,107,39,1,10,12
+201901,10132,BIO,303,Biochemistry,52,38,12,16,16
+201901,10138,BIO,303,Biochemistry,59,42,17,16,16
+201901,10060,BIO,317,Entomology: The Insects,77,38,11,14,16
+201901,10061,BIO,317,Entomology: The Insects,48,32,5,16,16
+201901,10518,BIO,331,PSY Research:  Behavior Neuro,6,1,0,11,0
+201901,10111,BIO,342,Evolutionary Biology,104,34,0,19,32
+201901,10062,BIO,352,Genetics of Mitochondr Shaping,15,6,1,7,6
+201901,10300,BIO,357,Biotoxicity of Hookah Smoke,13,6,0,6,6
+201901,10019,BIO,365,Biology of Cancer,163,61,6,16,15
+201901,10119,BIO,368,Health Care Issues in Zambia,35,9,0,9,9
+201901,10123,BIO,393,Advances in Genome Editing,31,12,1,5,12
+201901,10085,CHE,115,Principles of Chemistry,52,32,5,8,16
+201901,10091,CHE,115,Principles of Chemistry,76,48,14,14,16
+201901,10137,CHE,115,Principles of Chemistry,121,84,21,15,16
+201901,10139,CHE,115,Principles of Chemistry,78,55,10,13,16
+201901,10140,CHE,115,Principles of Chemistry,122,78,18,15,16
+201901,10141,CHE,115,Principles of Chemistry,51,36,11,16,16
+201901,10086,CHE,220,Intro to Analytical Chemistry,63,37,6,14,16
+201901,10142,CHE,220,Intro to Analytical Chemistry,79,41,10,13,16
+201901,10087,CHE,250,Intro to Organic Chemistry,60,42,11,16,14
+201901,10143,CHE,250,Intro to Organic Chemistry,85,55,16,16,15
+201901,10144,CHE,250,Intro to Organic Chemistry,85,51,5,16,15
+201901,10145,CHE,250,Intro to Organic Chemistry,75,57,13,15,14
+201901,10088,CHE,260,Thermodynamics and Kinetics,50,26,1,12,12
+201901,10146,CHE,260,Thermodynamics and Kinetics,55,27,3,12,12
+201901,10149,CHE,321,Mass Spectrometry,31,11,0,3,12
+201901,10089,CHE,330,Experimental Biological Chem,28,18,5,9,8
+201901,10147,CHE,330,Experimental Biological Chem,40,20,9,9,8
+201901,10090,CHE,350,Experimental Organic Chem,31,14,2,6,12
+201901,10148,CHE,350,Experimental Organic Chem,43,21,7,11,12
+201901,10557,CHE,450,Seminar in Organic Chemistry,0,0,0,2,15
+201901,10279,CHI,101,Elementary Chinese I,58,25,2,17,20
+201901,10286,CHI,101,Elementary Chinese I,46,18,1,14,20
+201901,10281,CHI,201,Intermediate Chinese I,80,21,0,6,20
+201901,10288,CHI,201,Intermediate Chinese I,82,25,2,13,20
+201901,10282,CHI,228,Mod Chi Lit in Translation,66,25,1,18,30
+201901,10289,CHI,301,Advanced Chinese I,32,8,1,7,20
+201901,10458,CHI,401,Advanced Chinese III,19,6,0,3,20
+201901,10459,CHI,450,Advanced Chinese IV,10,5,0,4,20
+201901,10164,CLA,111,The Ancient World,137,53,1,21,30
+201901,10166,CLA,141,Greek Art & Archaeology,56,24,1,19,30
+201901,10460,CLA,238,War & Gender in Ancient World,181,74,3,28,30
+201901,10165,CLA,480,Senior Research Seminar,19,4,0,4,4
+201901,10250,COM,101,Princ of Oral Communication,344,111,6,16,16
+201901,10268,COM,101,Princ of Oral Communication,211,83,2,16,16
+201901,10324,COM,201,Intro to Communication Studies,210,78,10,30,30
+201901,10251,COM,202,Rhetorical Criticism,63,27,2,19,30
+201901,10461,COM,207,"Trump, Race, & U.S. Media",379,130,1,31,30
+201901,10325,COM,225,Interpersonal Communication,217,75,0,29,30
+201901,10462,COM,311,"Media, Empathy, & Justice",95,41,2,19,30
+201901,10463,COM,344,Stereotypes & Humor,153,59,3,9,10
+201901,10025,CSC,110,Data Science & Society,235,82,7,24,24
+201901,10190,CSC,121,Programming & Problem Solving,209,84,11,23,24
+201901,10195,CSC,121,Programming & Problem Solving,77,46,6,23,24
+201901,10196,CSC,121,Programming & Problem Solving,165,73,7,24,24
+201901,10191,CSC,220,Discrete Structures,97,38,9,12,20
+201901,10197,CSC,220,Discrete Structures,93,36,3,13,20
+201901,10192,CSC,221,Data Structures,94,42,8,23,24
+201901,10198,CSC,221,Data Structures,98,43,6,11,24
+201901,10193,CSC,250,Computer Organization,111,44,7,25,24
+201901,10194,CSC,321,Analysis of Algorithms,74,33,7,25,24
+201901,10001,CSC,322,Programming Languages,104,46,6,21,24
+201901,10002,CSC,359,Networks & Distributed Systems,103,43,6,24,24
+201901,10003,CSC,371,Machine Learning,78,43,29,24,24
+201901,10004,CSC,381,Linear Algebra in Data Mining,100,41,7,17,24
+201901,10551,CSC,383,Linear & Discrete Optimization,19,7,0,4,24
+201901,10493,DAN,101,Introduction to Dance,53,28,0,11,30
+201901,10494,DAN,240,Modern Dance Technique I,31,10,0,10,15
+201901,10495,DAN,242,Haitian Dance Technique I,13,9,0,3,15
+201901,10269,DIG,101,Intro to Digital Studies,196,67,5,28,28
+201901,10270,DIG,245,Critical Web Design,74,26,1,12,12
+201901,10064,ECO,101,Introductory Economics,220,107,13,30,30
+201901,10067,ECO,101,Introductory Economics,170,84,20,30,30
+201901,10068,ECO,101,Introductory Economics,140,76,9,30,30
+201901,10069,ECO,101,Introductory Economics,47,29,6,26,30
+201901,10070,ECO,101,Introductory Economics,203,111,13,31,30
+201901,10071,ECO,105,Stats & Basic Econometrics,106,65,27,13,13
+201901,10072,ECO,105,Stats & Basic Econometrics,153,89,24,13,12
+201901,10073,ECO,105,Stats & Basic Econometrics,101,50,3,15,13
+201901,10074,ECO,105,Stats & Basic Econometrics,72,46,2,14,13
+201901,10075,ECO,202,Intermed Microeconomic Theory,111,52,9,30,30
+201901,10076,ECO,202,Intermed Microeconomic Theory,133,57,22,30,30
+201901,10077,ECO,203,Intermed Macroeconomic Theory,80,45,1,11,30
+201901,10078,ECO,203,Intermed Macroeconomic Theory,158,68,12,28,30
+201901,10079,ECO,205,Econometrics,34,25,3,9,12
+201901,10080,ECO,205,Econometrics,41,34,11,14,13
+201901,10097,ECO,205,Econometrics,53,40,20,13,13
+201901,10098,ECO,205,Econometrics,31,27,6,13,13
+201901,10063,ECO,211,Introduction to Accounting,268,96,9,33,30
+201901,10066,ECO,211,Introduction to Accounting,151,61,4,31,30
+201901,10065,ECO,213,Cost Accounting,112,34,1,23,30
+201901,10081,ECO,221,Economic History of the US,273,95,8,36,30
+201901,10124,ECO,228,Financial Economics,73,34,1,16,30
+201901,10532,ECO,229,Urban Economics,250,97,10,32,29
+201901,10322,ECO,288,Int'l Political Economy,163,55,2,18,30
+201901,10540,ECO,288,Int'l Political Economy,87,29,0,19,30
+201901,10531,ECO,325,Public Sector Economics,140,48,1,26,30
+201901,10530,ECO,329,Sports Economics,189,72,6,27,29
+201901,10120,ECO,336,Economic Growth,42,21,0,5,30
+201901,10082,ECO,337,International Trade,55,23,2,6,30
+201901,10083,ECO,494,Honors Thesis Research,29,11,1,11,12
+201901,10099,ECO,495,Contemporary Economic Issues,14,10,4,10,12
+201901,10017,EDU,121,Foundations of American Educ,220,82,3,29,30
+201901,10538,EDU,208,Comp & International Education,114,39,3,19,20
+201901,10510,EDU,234,Child Psychopathology,0,0,0,2,0
+201901,10517,EDU,241,Child Development,0,0,0,1,0
+201901,10200,EDU,280,Intro to Educational Policy,116,40,2,27,30
+201901,10009,ENG,110,Literature & Social Change,147,62,1,14,30
+201901,10013,ENG,110,Poetry Without Fear,113,47,4,27,30
+201901,10312,ENG,110,Literature & Medicine,194,72,1,27,30
+201901,10426,ENG,116,Gesture,75,27,1,22,30
+201901,10008,ENG,203,Introduction to Writing Poetry,60,27,3,16,14
+201901,10011,ENG,204,Intro to Writing Fiction,107,36,4,12,14
+201901,10386,ENG,205,Screenwriting,112,60,10,13,14
+201901,10550,ENG,211,Filmmaking,32,11,0,10,10
+201901,10006,ENG,220,Literary Analysis,72,33,10,19,20
+201901,10212,ENG,240,British Literature to 1800,78,26,1,14,30
+201901,10005,ENG,271,Disability in Literature & Art,262,89,2,31,30
+201901,10010,ENG,282,African-Am Lit: 18th-19th Cent,53,18,0,6,15
+201901,10383,ENG,293,Film as a Narrative Art,111,55,3,14,30
+201901,10014,ENG,301,Creative Nonfiction,69,27,3,13,14
+201901,10015,ENG,352,Shakespeare in Action,32,17,1,6,30
+201901,10536,ENG,373,Studies Mod Poetry:Poetry&Pol,93,32,0,15,30
+201901,10384,ENG,391,Literary Criticism,48,23,1,11,30
+201901,10428,ENG,409,TV: Queer Representations,47,27,11,6,6
+201901,10314,ENG,462,Romantic Radicalism,49,21,9,11,12
+201901,10024,ENG,498,Honors Research,24,8,0,9,10
+201901,10443,ENV,202,Environmental Social Sciences,126,44,12,33,29
+201901,10515,ENV,214,"Energy, Environ, Engin Design",4,2,0,2,0
+201901,10516,ENV,214,"Energy, Environ, Engin Design",3,2,1,0,0
+201901,10215,ENV,272,Environ Chem & Nutrients,10,3,0,4,16
+201901,10216,ENV,272,Environ Chem & Nutrients,25,9,0,8,16
+201901,10211,ENV,284,Latinx & the Environment,65,23,2,13,30
+201901,10214,ENV,335,Soil Science,46,17,3,12,15
+201901,10213,ENV,498,Capstone,73,20,2,22,25
+201901,10348,FMS,220,Intro to Film & Media Studies,226,85,3,32,30
+201901,10514,FMS,421,Senior Seminar: Horror Film,14,5,0,2,6
+201901,10349,FRE,101,Elementary French I,44,23,2,12,12
+201901,10356,FRE,101,Elementary French I,26,9,0,3,8
+201901,10357,FRE,101,Elementary French I,23,14,0,8,8
+201901,10358,FRE,101,Elementary French I,55,20,0,7,12
+201901,10350,FRE,102,Elementary French II,29,11,5,10,18
+201901,10351,FRE,103,Intensive Fre 1&2  (2 credits),29,14,1,8,18
+201901,10352,FRE,201,Intermed French/HS Exposure,106,37,6,12,18
+201901,10359,FRE,201,Intermed Fre/Davidson Exposure,87,29,1,16,18
+201901,10360,FRE,201,Intermed Fre/Davidson Exposure,87,31,1,15,18
+201901,10353,FRE,212,Oral Expression,102,40,3,17,16
+201901,10361,FRE,224,The Return in Francophone Lit,43,25,2,16,18
+201901,10362,FRE,230,Quebec Through Film,50,25,0,8,8
+201901,10543,FRE,331,Francophone Caribbean Lit,47,16,0,5,20
+201901,10508,FRE,360,Adv Quebec Through Film,51,13,0,10,10
+201901,10364,FRE,490,French Senior Seminar,31,6,0,7,12
+201901,10430,GER,101,Elementary German I,27,12,1,10,20
+201901,10435,GER,101,Elementary German I,42,16,1,11,20
+201901,10431,GER,201,Intermediate German,73,29,0,15,20
+201901,10438,GER,201,Intermediate German,93,30,2,13,20
+201901,10432,GER,260,Intro German Cultural Studies,32,9,0,6,15
+201901,10218,GER,452,Refugees in German Culture,50,14,1,12,15
+201901,10167,GRE,201,Intermediate Greek,10,5,0,4,20
+201901,10509,GRE,244,Greek Historians: Herodotus,2,2,0,0,10
+201901,10168,GRE,344,Adv Greek Historians:Herodotus,19,4,0,3,10
+201901,10492,GSS,101,Intro to Gender & Sexuality,181,70,3,29,30
+201901,10491,GSS,201,Feminist & Queer Theories,185,52,3,24,20
+201901,10490,GSS,341,"Race,Gndr&SexltyAsianAmLit&Flm",89,36,2,13,20
+201901,10496,GSS,350,Adv Top Queer Stud:Sex Radicls,31,12,3,17,20
+201901,10507,GSS,401,TV: Queer Representations,26,14,2,6,6
+201901,10315,HHV,110,Introduction to Public Health,267,102,5,30,30
+201901,10318,HHV,244,Child Psychopathology,245,95,12,10,30
+201901,10320,HHV,280,Introduction to Global Health,337,119,5,29,30
+201901,10319,HHV,354,Medical Rehab & Disability,126,51,4,6,12
+201901,10542,HHV,395,Current Issues Public Health,60,22,1,11,12
+201901,10392,HIS,120,Britain since 1688,99,36,1,29,30
+201901,10409,HIS,122,Europe since 1789,81,43,1,16,30
+201901,10394,HIS,142,The United States since 1900,286,110,2,30,30
+201901,10393,HIS,171,Taj Mahal to Terrorism,100,42,1,26,30
+201901,10391,HIS,175,"Mid East,610-1453:Formtn Islam",242,75,3,32,30
+201901,10404,HIS,183,East Asian History to 1850,100,41,1,17,30
+201901,10398,HIS,228,The Modern Body,161,66,4,19,20
+201901,10395,HIS,248,The Native South,196,67,2,19,20
+201901,10396,HIS,267,Health & Society in Africa,150,70,2,19,19
+201901,10397,HIS,272,Massacres&Migratns:India Parti,79,27,0,13,20
+201901,10399,HIS,306,Women & Gender in US to 1870,104,37,1,23,30
+201901,10501,HIS,337,Anti-Semitism and Mod. Europe,56,22,1,8,30
+201901,10402,HIS,357,The Civil Rights Movement,150,51,2,23,30
+201901,10497,HIS,380,"Pilgrims, Poppies, and Pirates",58,21,0,9,30
+201901,10405,HIS,386,Modern China,82,35,1,14,30
+201901,10403,HIS,424,The Global French Revolution,42,15,2,12,12
+201901,10407,HIS,480,Senior Research Seminar,28,13,2,8,5
+201901,10408,HIS,480,Senior Research Seminar,22,11,2,8,5
+201901,10406,HIS,488,Kelley Honors Seminar,24,7,1,7,10
+201901,10674,HUM,101,Humanities: Cultures/Conflicts,0,0,0,2,0
+201901,10131,HUM,103,Register for CRN 10416,0,0,0,0,0
+201901,10412,HUM,103,Register for CRN 10416,0,0,0,0,0
+201901,10413,HUM,103,Register for CRN 10416,0,0,0,0,0
+201901,10414,HUM,103,Register for CRN 10416,0,0,0,0,0
+201901,10415,HUM,103,Register for CRN 10416,0,0,0,0,0
+201901,10416,HUM,103,Connections and Conflicts I,188,84,56,68,70
+201901,10547,LAS,241,Latin Amer Social Movements,3,2,0,3,30
+201901,10504,LAS,284,Latinx & the Environment,0,0,0,0,0
+201901,10534,LAS,350,Latinx Experience in NC,12,5,0,4,15
+201901,10309,LAS,490,Latin Amer Studies Capstone,23,6,2,6,10
+201901,10169,LAT,101,Elementary Latin I,23,10,2,11,20
+201901,10170,LAT,201,Intermediate Latin,62,23,4,20,20
+201901,10028,LAT,225,Ovid: Poetry from Exile,5,5,1,5,10
+201901,10513,LAT,325,Adv Ovid: Poetry from Exile,43,8,0,6,10
+201901,10171,MAT,110,Finite Mathematics,144,44,3,32,30
+201901,10172,MAT,110,Finite Mathematics,163,54,1,32,30
+201901,10173,MAT,111,Calculus I - No Prev Exposure,121,44,8,23,26
+201901,10174,MAT,112,Calculus I and Modeling,348,115,4,26,26
+201901,10175,MAT,112,Calculus I and Modeling,225,91,4,26,26
+201901,10176,MAT,112,Calculus I and Modeling,137,67,5,25,26
+201901,10177,MAT,113,Calculus II,117,44,2,19,26
+201901,10178,MAT,113,Calculus II,171,56,5,25,26
+201901,10179,MAT,140,Multivar Calculus & Modeling,72,36,4,18,26
+201901,10181,MAT,150,Linear Algebra,101,43,6,24,24
+201901,10183,MAT,150,Linear Algebra,72,32,0,12,24
+201901,10184,MAT,160,Calculus III,130,44,7,21,26
+201901,10505,MAT,220,Discrete Structures,3,1,0,7,0
+201901,10506,MAT,220,Discrete Structures,3,2,1,3,0
+201901,10185,MAT,230,Sets and Proofs,25,14,2,7,20
+201901,10186,MAT,235,Differential Equations,127,39,4,27,30
+201901,10187,MAT,330,Real Analysis I,85,26,4,19,24
+201901,10188,MAT,340,Probability,102,25,0,14,30
+201901,10189,MAT,355,Abstract Algebra I,72,23,0,13,24
+201901,10486,MIL,101,Leadership & Personal Develop,4,3,0,4,5
+201901,10487,MIL,201,Innovative Team Leadership,1,1,0,2,3
+201901,10488,MIL,301,Adaptive Tactical Leadership,0,0,0,4,4
+201901,10242,MUS,101,Music Theory,57,32,2,14,20
+201901,10548,MUS,121,Music in Western Civilization,24,11,0,9,30
+201901,10241,MUS,122,Music of the United States,89,24,0,20,30
+201901,10247,MUS,233,Musical Theatre,117,37,1,30,30
+201901,10246,MUS,246,Music of Brazil,53,24,0,12,15
+201901,10244,MUS,311,Music Technology & Production,37,14,3,6,6
+201901,10537,MUS,346,Music of Brazil,25,9,2,2,15
+201901,10248,MUS,401,Senior Seminar,27,10,1,9,9
+201901,10337,PHI,105,Ancient Greek Philosophy,260,108,4,30,30
+201901,10338,PHI,107,Medieval Philosophy,98,44,4,31,30
+201901,10339,PHI,110,Problems of Philosophy,185,80,2,30,30
+201901,10340,PHI,120,Applied Ethics,344,123,3,30,30
+201901,10521,PHI,122,Philosophy of Human Nature,303,113,0,29,30
+201901,10342,PHI,200,Symbolic Logic,106,38,4,17,30
+201901,10346,PHI,216,Philosophy of Language,113,47,1,22,30
+201901,10343,PHI,220,Political Philosophy,78,37,0,21,30
+201901,10344,PHI,235,Existentialism,128,50,3,27,30
+201901,10345,PHI,350,Mind to Matter & Morality:Kant,31,13,3,7,16
+201901,10469,PHY,125,General Phys I w/Calc Studio,75,38,13,13,12
+201901,10470,PHY,125,General Phys I w/Calc Studio,80,42,8,14,12
+201901,10150,PHY,130,General Phys I w/Calculus,53,26,0,7,8
+201901,10163,PHY,130,General Phys I w/Calculus,49,31,5,6,8
+201901,10303,PHY,130,General Phys I w/Calculus,50,27,1,7,8
+201901,10304,PHY,130,General Phys I w/Calculus,47,30,1,8,8
+201901,10471,PHY,214,"Energy, Environ, Engin Design",26,12,1,10,12
+201901,10472,PHY,214,"Energy, Environ, Engin Design",10,7,2,11,12
+201901,10026,PHY,230,General Phys II w/Calculus,18,7,2,3,16
+201901,10151,PHY,230,General Phys II w/Calculus,16,8,0,3,16
+201901,10152,PHY,310,Electronics & Instrumentation,98,20,3,19,10
+201901,10027,PHY,320,Intro to Modern Physics,28,12,1,8,8
+201901,10153,PHY,320,Intro to Modern Physics,44,14,4,8,8
+201901,10154,PHY,330,Classical Mechanics,55,17,2,18,20
+201901,10155,PHY,360,Quantum Mechanics I,74,20,0,21,20
+201901,10158,PHY,400,Statistical & Thermal Physics,35,9,0,7,20
+201901,10227,POL,121,American Politics,199,76,7,30,30
+201901,10228,POL,140,Comparative Global Politics,171,73,1,20,30
+201901,10229,POL,161,International Relations,166,72,1,26,30
+201901,10249,POL,161,International Relations,290,119,9,30,30
+201901,10267,POL,180,Intro to Policy Analysis,150,65,5,28,30
+201901,10473,POL,182,Intro to Research Methods,99,45,12,22,30
+201901,10474,POL,182,Intro to Research Methods,74,36,4,12,30
+201901,10265,POL,203,Medieval Political Theory,91,39,2,17,30
+201901,10434,POL,204,Modern Political Theory,161,68,2,29,30
+201901,10261,POL,223,The Presidency,402,133,12,34,30
+201901,10366,POL,225,US Public Policy,82,33,1,6,30
+201901,10262,POL,226,Racial & Ethnic Politics,158,62,2,28,30
+201901,10253,POL,242,West European Politics,99,33,1,15,30
+201901,10254,POL,259,"Governance,Corruption& Reform",26,11,2,8,15
+201901,10252,POL,290,Politics of Africa,149,52,7,27,30
+201901,10259,POL,325,Constitutional Law,230,81,10,30,30
+201901,10263,POL,334,Public Opinion,90,36,1,19,30
+201901,10257,POL,359,Democracy and its Discontents,15,7,1,3,30
+201901,10256,POL,360,Int'l Political Economy,9,2,1,5,0
+201901,10539,POL,360,Int'l Political Economy,1,1,0,3,0
+201901,10264,POL,382,Dilemmas of Ethics Public Serv,33,12,1,12,12
+201901,10260,POL,423,Politics of Reproduction,48,21,9,14,12
+201901,10273,POL,435,(In)Justice in America,28,17,9,12,12
+201901,10255,POL,445,Corruption and Development,15,9,2,6,12
+201901,10258,POL,452,Leaders versus Entrepreneurs,21,8,3,6,12
+201901,10266,POL,464,Causes of War,36,23,11,11,12
+201901,10052,PSY,101,General Psychology,443,172,10,40,40
+201901,10053,PSY,101,General Psychology,282,125,2,40,40
+201901,10055,PSY,101,General Psychology,214,99,5,37,40
+201901,10106,PSY,233,Career Development,143,49,2,32,32
+201901,10511,PSY,234,Child Psychopathology,16,4,1,20,0
+201901,10526,PSY,235,Cultural Psychology,218,81,5,30,32
+201901,10104,PSY,241,Child Development,159,68,7,28,32
+201901,10101,PSY,254,Industrial/Organizational Psy,156,57,3,32,32
+201901,10102,PSY,276,Cognitive Psychology,268,94,7,32,32
+201901,10100,PSY,282,Learning,102,43,0,32,32
+201901,10105,PSY,303,Psy Research:Behavior Neurosci,27,16,9,1,8
+201901,10535,PSY,303,Psy Res:Behavioral Neuro,21,15,4,4,7
+201901,10056,PSY,304,Psy Research: Memory,32,21,4,4,4
+201901,10057,PSY,304,Psy Research: Memory,15,12,4,4,4
+201901,10058,PSY,304,Psy Research: Memory,18,10,0,4,4
+201901,10059,PSY,304,Psy Research: Memory,18,10,2,4,4
+201901,10054,PSY,310,PsyResearch:Design & Analysis1,52,30,18,20,22
+201901,10020,PSY,314,Psy Research: Clinical,8,8,2,2,2
+201901,10108,PSY,314,Psy Research: Clinical,35,23,10,16,12
+201901,10107,PSY,318,Psy Research: Social Psy,42,26,9,6,6
+201901,10160,PSY,318,Psy Research: Social Psy,30,23,2,6,6
+201901,10161,PSY,318,Psy Research: Social Psy,28,19,7,4,2
+201901,10162,PSY,318,Psy Research: Social Psy,14,13,2,2,2
+201901,10512,PSY,354,Medical Rehab & Disability,4,2,0,6,0
+201901,10103,PSY,365,Adv Sem:Clinical Neuropsych,85,25,2,12,12
+201901,10527,PSY,369,Adv Seminar:Black Psychology,60,22,2,12,12
+201901,10236,REL,141,The Rise of Christianity,114,56,0,24,30
+201901,10451,REL,144,The Christian Faith,229,77,0,35,30
+201901,10390,REL,145,The Spiritual Imagination,66,22,1,6,30
+201901,10335,REL,161,GodLoveSex,226,83,2,31,30
+201901,10476,REL,177,What is a Good Life?,175,73,2,28,30
+201901,10446,REL,180,East Asian Religions,287,96,0,30,30
+201901,10007,REL,223,Wisdom Lit: Job to DF Wallace,82,33,3,18,30
+201901,10235,REL,266,The Bible in America,114,41,0,24,30
+201901,10452,REL,270,Classical Hinduism,48,29,0,11,30
+201901,10323,REL,288,Rel Question in Modern China,71,26,0,13,30
+201901,10336,REL,365,Women in American Religion,87,32,0,20,30
+201901,10453,REL,370,Asian Meditation Texts,41,21,1,14,30
+201901,10445,REL,401,Senior Colloquium,16,7,0,5,15
+201901,10439,REL,433,"Religious Art, Media & Tech",14,6,1,5,12
+201901,10331,RUS,101,Elementary Russian I,40,13,1,9,20
+201901,10332,RUS,201,Intermediate Russian I,21,8,0,7,20
+201901,10561,RUS,319,Adv Russian to Contemp Cult,0,0,0,3,10
+201901,10411,RUS,420,War &Peace: Tolstoy (in trans),75,28,2,14,20
+201901,10125,SOC,101,Introductory Sociology,189,84,6,31,30
+201901,10126,SOC,201,Social Statistics,180,68,12,24,24
+201901,10127,SOC,210,Power and Politics,245,90,7,21,30
+201901,10128,SOC,217,Gender & Society,149,61,3,30,30
+201901,10022,SOC,225,Religion and Non-Religion,68,28,0,12,30
+201901,10498,SOC,240,Social Movements,139,50,1,22,30
+201901,10503,SOC,344,Stereotypes & Humor,123,37,6,11,10
+201901,10525,SOC,355,Queer Families,84,30,1,15,15
+201901,10130,SOC,390,Qualitative Research Methods,88,25,7,16,20
+201901,10230,SPA,101,Elementary Spanish I,245,100,11,18,18
+201901,10234,SPA,101,Elementary Spanish I,181,78,5,18,18
+201901,10444,SPA,101,Elementary Spanish I,215,88,19,18,18
+201901,10231,SPA,102,Elementary Spanish II,48,27,3,13,18
+201901,10368,SPA,102,Elementary Spanish II,141,58,7,18,18
+201901,10447,SPA,102,Elementary Spanish II,98,41,1,17,18
+201901,10449,SPA,102,Elementary Spanish II,92,37,1,18,18
+201901,10450,SPA,102,Elementary Spanish II,46,22,1,8,18
+201901,10232,SPA,201,Intermediate Spanish,174,74,7,20,18
+201901,10369,SPA,201,Intermediate Spanish,45,23,1,15,18
+201901,10370,SPA,201,Intermediate Spanish,220,84,9,20,18
+201901,10371,SPA,201,Intermediate Spanish,63,25,0,18,18
+201901,10372,SPA,201,Intermediate Spanish,163,72,9,18,18
+201901,10376,SPA,201,Intermediate Spanish,66,29,0,18,18
+201901,10233,SPA,260,Spanish Conversation & Comp,108,40,2,13,16
+201901,10373,SPA,260,Spanish Conversation & Comp,114,40,0,12,16
+201901,10374,SPA,260,Spanish Conversation & Comp,166,55,7,15,16
+201901,10477,SPA,271,Hispanic Humanities I,57,21,1,10,20
+201901,10478,SPA,271,Hispanic Humanities I,79,28,2,16,20
+201901,10382,SPA,302,Advanced Grammar,80,28,0,19,20
+201901,10375,SPA,320,Span Lit Through Golden Age,66,24,0,13,20
+201901,10560,SPA,358,20th-21st C Spanish Theatre,0,0,0,5,20
+201901,10499,SPA,360,Cultures of Southern Spain,95,40,1,16,20
+201901,10378,SPA,375,Latin American Women Writers,113,44,4,18,20
+201901,10379,SPA,405,Latin American Modernities,31,15,1,8,12
+201901,10380,SPA,490,Documenting Latin America,53,16,2,8,12
+201901,10381,SPA,490,Documenting Latin America,67,17,1,9,12
+201901,10297,THE,101,Introduction to Theatre Arts,207,74,1,30,30
+201901,10440,THE,221,Ensemble Theatre Making,37,15,1,8,12
+201901,10479,THE,230,Fashion Statement,101,38,2,10,10
+201901,10480,THE,235,Fundamentals of Stage Design,28,14,1,8,10
+201901,10427,THE,245,Acting I,169,67,8,12,12
+201901,10429,THE,245,Acting I,124,55,4,12,12
+201901,10433,THE,245,Acting I,86,39,2,12,12
+201901,10436,THE,325,Production Dramaturgy,19,7,0,2,16
+201901,10437,THE,345,Acting II,30,12,1,5,10
+201901,10296,THE,355,Directing I,24,10,3,8,8
+201901,10096,WRI,101,#MeToo:Speakng Sexual Violence,145,70,11,14,14
+201901,10271,WRI,101,White Supremacy and Racism,142,65,6,14,14
+201901,10272,WRI,101,The American Dream,219,98,19,14,14
+201901,10274,WRI,101,Print: Noun…Verb…Adjective?,49,26,1,14,14
+201901,10275,WRI,101,Print: Noun…Verb…Adjective?,38,20,1,14,14
+201901,10276,WRI,101,Family Way,104,46,2,14,14
+201901,10277,WRI,101,Religion in the Public Square,63,34,0,14,14
+201901,10278,WRI,101,Religion in the Public Square,73,35,0,14,14
+201901,10280,WRI,101,Religion in the Public Square,54,30,1,14,14
+201901,10283,WRI,101,"Fake News, Real Science",293,130,17,15,14
+201901,10284,WRI,101,Justice and Piety,44,25,3,14,14
+201901,10285,WRI,101,In Stitches,238,97,16,14,14
+201901,10287,WRI,101,From Papyrus to Print to iPad,67,27,3,14,14
+201901,10290,WRI,101,The American West,85,44,8,14,14
+201901,10291,WRI,101,Building Stories,137,74,4,14,14
+201901,10293,WRI,101,Writing Criticism,82,48,6,14,14
+201901,10294,WRI,101,Democracy's Bodies,132,64,4,14,14
+201901,10295,WRI,101,Democracy's Bodies,122,55,4,14,14
+201901,10298,WRI,101,"Sex, Love, and Friendship",103,57,4,14,14
+201901,10299,WRI,101,Buddhism and Violence,90,44,5,13,14
+201901,10500,WRI,101,Writing Criticism,67,31,3,14,14
+201901,10541,WRI,101,Critical Reading&Critical Writ,35,20,0,14,14
+201901,10553,WRI,101,Race on Film,29,17,2,14,14
+201901,10556,WRI,101,Language and Identity,5,3,0,13,14
+201902,20538,AFR,225,"Race,Gender,Sexuality inHipHop",56,22,0,7,30
+201902,20482,AFR,233,Africana Political Economy,56,17,0,6,25
+201902,20515,AFR,286,Register for CRN 20316 ENG 286,1,1,0,0,0
+201902,20519,AFR,304,James Baldwin,41,17,4,7,6
+201902,20539,AFR,321,Taking Back the Land,21,9,0,4,30
+201902,20191,AFR,330,Gender & Develop Sub-Sahara,31,13,0,7,25
+201902,20483,AFR,340,African-Am Intellect History,25,9,2,6,15
+201902,20194,ANT,101,Intro Cultural Anthropology,147,48,1,26,30
+201902,20208,ANT,227,Environ Justice Latin America,115,41,0,18,30
+201902,20198,ANT,239,"Love, Sex and Globalization",132,54,3,20,30
+201902,20597,ANT,252,Ancient Maya Civilization,147,59,3,21,30
+201902,20197,ANT,257,"African Roots, American Soils",43,19,1,11,30
+201902,20195,ANT,273,Bioarchaeology,144,51,2,27,30
+201902,20595,ANT,277,Ancient Food and Foodways,197,64,4,27,30
+201902,20200,ANT,310,"Politics, Society and Culture",50,20,0,6,15
+201902,20203,ANT,335,Debunking Race,39,12,0,8,15
+201902,20598,ANT,355,Archaeology of Politics,12,6,1,5,15
+201902,20202,ANT,371,Ethnographic Writing,29,13,0,5,15
+201902,20205,ANT,373,Decolonizing Anthro Theory,38,14,4,11,15
+201902,20207,ANT,375,Human Osteology,50,16,0,9,15
+201902,20594,ANT,383,Seminar: Water & Citizenship,16,8,2,7,15
+201902,20592,ANT,384,"Am Indian Nations,Pressng Topc",70,28,6,13,15
+201902,20333,ANT,387,Queer New Media,43,16,1,7,15
+201902,20042,ARB,102,Elementary Arabic II,53,16,0,15,20
+201902,20041,ARB,202,Intermediate Arabic II,5,1,0,2,20
+201902,20043,ARB,330,The Arab Spring (in transl),25,13,0,7,30
+201902,20044,ARB,334,Contemp Arab Cinema(in transl),42,11,0,5,30
+201902,20173,ART,100,Survey of Western Art,62,31,0,9,10
+201902,20635,ART,100,Survey of Western Art,0,0,0,10,30
+201902,20169,ART,101,Basic Drawing,257,95,8,14,14
+201902,20174,ART,102,Survey of Asian Art,115,45,0,30,30
+201902,20201,ART,109,Basic Sculpture,214,88,13,12,10
+201902,20170,ART,111,Introduction to Digital Art,290,112,5,12,10
+201902,20204,ART,201,Advanced Drawing,46,20,1,10,12
+201902,20171,ART,203,Advanced Painting,36,17,5,13,13
+201902,20576,ART,205,Advanced Printmaking,23,10,1,6,12
+201902,20453,ART,210,Italian Renaissance,34,16,0,3,30
+201902,20353,ART,211,Advanced Digital Art,51,21,12,16,11
+201902,20176,ART,224,Modern & Contemp Chinese Art,70,26,0,16,20
+201902,20535,ART,326,Romare Bearden,43,14,0,10,15
+201902,20172,ART,397,Junior Advanced Study,32,10,1,8,10
+201902,20109,BIO,108,Human Biology,241,112,32,7,8
+201902,20110,BIO,108,Human Biology,69,36,1,8,8
+201902,20111,BIO,108,Human Biology,105,60,17,8,8
+201902,20112,BIO,108,Human Biology,85,49,4,8,8
+201902,20039,BIO,113,Integrated Concepts in Bio I,85,57,14,16,16
+201902,20093,BIO,113,Integrated Concepts in Bio I,34,20,3,16,16
+201902,20102,BIO,113,Integrated Concepts in Bio I,95,63,19,16,16
+201902,20103,BIO,113,Integrated Concepts in Bio I,35,20,1,8,16
+201902,20113,BIO,113,Integrated Concepts in Bio I,77,40,7,15,16
+201902,20114,BIO,113,Integrated Concepts in Bio I,95,52,14,16,16
+201902,20100,BIO,114,Integr Concepts in Biology II,92,44,4,15,16
+201902,20101,BIO,114,Integr Concepts in Biology II,63,43,13,16,16
+201902,20292,BIO,114,Integr Concepts in Biology II,128,57,14,18,16
+201902,20293,BIO,114,Integr Concepts in Biology II,54,29,3,16,16
+201902,20605,BIO,161,Being Human in STEM,98,37,1,15,16
+201902,20098,BIO,201,Genetics,100,49,3,15,16
+201902,20099,BIO,201,Genetics,96,48,8,16,16
+201902,20270,BIO,202,Microbiology,142,82,19,16,16
+201902,20271,BIO,202,Microbiology,139,79,21,16,16
+201902,20095,BIO,208,Cell Biology,58,35,2,15,16
+201902,20097,BIO,208,Cell Biology,58,40,3,16,16
+201902,20296,BIO,218,Human Form and Function,86,45,7,14,16
+201902,20297,BIO,218,Human Form and Function,75,44,9,15,16
+201902,20025,BIO,240,Biostats for Life Scientists,123,53,3,20,20
+201902,20026,BIO,240,Biostats for Life Scientists,182,68,3,20,20
+201902,20027,BIO,240,Biostats for Life Scientists,172,64,2,20,20
+201902,20091,BIO,251,Light Microscopy,115,46,4,10,8
+201902,20090,BIO,261,Neuroscience of Exercise,212,76,4,18,16
+201902,20295,BIO,263,Evolutionary Ecology,114,48,7,15,12
+201902,20036,BIO,309,Genomics,84,34,1,21,32
+201902,20286,BIO,310,Human Physiology,203,69,11,32,32
+201902,20269,BIO,343,Laboratory Methods in Genomics,58,24,1,17,18
+201902,20563,BIO,391,Maternal & Fetal Health,202,66,10,16,16
+201902,20509,BIO,395,REG FOR CHE 430,0,0,0,0,0
+201902,20574,CHE,106,Chemistry of Fibers & Dyes,43,24,4,17,16
+201902,20575,CHE,106,Chemistry of Fibers & Dyes,47,27,3,16,16
+201902,20115,CHE,115,Principles of Chemistry,117,66,20,15,16
+201902,20127,CHE,115,Principles of Chemistry,63,42,6,9,16
+201902,20128,CHE,115,Principles of Chemistry,66,42,7,16,16
+201902,20129,CHE,115,Principles of Chemistry,91,58,9,15,16
+201902,20116,CHE,220,Intro to Analytical Chemistry,98,56,8,16,16
+201902,20130,CHE,220,Intro to Analytical Chemistry,75,48,14,16,16
+201902,20117,CHE,230,Intro to Biological Chemistry,93,54,12,16,16
+201902,20131,CHE,230,Intro to Biological Chemistry,69,48,15,16,16
+201902,20118,CHE,240,Intro to Inorganic Chemistry,165,84,17,16,16
+201902,20132,CHE,240,Intro to Inorganic Chemistry,141,77,19,16,16
+201902,20119,CHE,250,Intro to Organic Chemistry,20,13,1,4,14
+201902,20133,CHE,250,Intro to Organic Chemistry,22,15,3,10,14
+201902,20134,CHE,250,Intro to Organic Chemistry,23,16,3,8,14
+201902,20120,CHE,350,Experimental Organic Chem,39,19,1,7,6
+201902,20135,CHE,350,Experimental Organic Chem,64,43,11,14,12
+201902,20136,CHE,350,Experimental Organic Chem,43,35,12,11,11
+201902,20137,CHE,350,Experimental Organic Chem,30,23,2,4,6
+201902,20570,CHE,351,Pharmacology,53,20,5,15,12
+201902,20121,CHE,360,Quantum Chem and Spectroscopy,13,4,0,3,8
+201902,20138,CHE,360,Quantum Chem and Spectroscopy,13,5,0,2,8
+201902,20124,CHE,420,Seminar Analytical Chemistry,46,17,1,9,12
+201902,20123,CHE,430,Sem in Biological Chemistry,40,16,4,13,12
+201902,20267,CHI,102,Elementary Chinese II,103,29,2,15,20
+201902,20268,CHI,102,Elementary Chinese II,73,23,0,15,20
+201902,20440,CHI,122,Chi Visual Culture (in transl),55,20,0,7,30
+201902,20441,CHI,202,Intermediate Chinese II,48,14,0,12,20
+201902,20444,CHI,302,Advanced Chinese II,22,6,2,6,20
+201902,20573,CHI,405,Chinese Cinema & Modern Lit,42,15,1,4,20
+201902,20446,CHI,406,Sem Cla Chinese Lit-In Transl,30,12,0,10,20
+201902,20447,CHI,450,Advanced Chinese IV,13,5,0,0,20
+201902,20637,CHI,451,Advanced Chinese,0,0,0,3,5
+201902,20593,CIS,140,Introduction to Jewish Studies,30,12,0,8,30
+201902,20139,CLA,122,Roman Lit in Translation,66,24,1,10,30
+201902,20012,CLA,252,Classics in the Cinema,66,31,3,9,30
+201902,20140,CLA,336,Augustus & the Roman Republic,165,56,8,28,30
+201902,20226,COM,101,Princ of Oral Communication,198,65,1,16,16
+201902,20227,COM,101,Princ of Oral Communication,251,85,3,16,16
+201902,20306,COM,101,Princ of Oral Communication,246,87,5,16,16
+201902,20261,COM,216,Rhetorics of Masculinities,355,129,9,30,30
+201902,20568,COM,253,True Stories,94,33,2,11,12
+201902,20262,COM,273,Reporting Politics & Elections,183,67,8,25,30
+201902,20224,COM,280,Intercultural Communication,230,78,1,30,30
+201902,20260,COM,315,Media Effects,180,67,4,10,10
+201902,20263,COM,325,Exploring Fake News,196,74,2,27,30
+201902,20225,COM,495,Comm Theory & Research,42,11,2,11,20
+201902,20034,CSC,108,Exploring Computer Science,135,42,2,20,20
+201902,20032,CSC,110,Data Science & Society,239,94,12,24,24
+201902,20001,CSC,121,Programming & Problem Solving,115,56,3,24,24
+201902,20007,CSC,121,Programming & Problem Solving,317,107,15,25,24
+201902,20008,CSC,121,Programming & Problem Solving,226,88,7,25,24
+201902,20525,CSC,200,Register for CRN 20274 PHY 200,1,1,0,0,0
+201902,20550,CSC,210,REG FOR MAT 210 CRN 20154,12,4,0,0,0
+201902,20002,CSC,220,Discrete Structures,116,51,17,24,20
+201902,20003,CSC,221,Data Structures,156,59,8,24,24
+201902,20009,CSC,221,Data Structures,142,57,5,25,24
+201902,20004,CSC,250,Computer Organization,105,42,10,24,24
+201902,20005,CSC,312,Software Design,127,50,6,26,24
+201902,20524,CSC,315,Register for CRN 20155 MAT 315,0,0,0,0,0
+201902,20006,CSC,321,Analysis of Algorithms,73,31,12,23,24
+201902,20010,CSC,357,Concurrent&Parallel Computing,122,45,7,26,24
+201902,20011,CSC,362,Data Visualization,152,72,17,26,24
+201902,20541,CSC,379,Cryptology,140,51,2,13,24
+201902,20033,CSC,381,Recommender Systems Research,59,21,2,12,18
+201902,20540,CSC,383,Algorithmic Game Theory,73,32,3,20,24
+201902,20496,DAN,101,Introduction to Dance,95,33,0,27,30
+201902,20495,DAN,240,Modern Dance Technique I,49,18,1,2,15
+201902,20498,DAN,242,Haitian Dance Technique I,22,11,1,3,15
+201902,20599,DAN,252,"History, Memory,Perf, Place",21,9,1,2,15
+201902,20497,DAN,260,Dance Composition,26,11,2,7,8
+201902,20512,DAN,360,Adv Dance Composition,4,1,0,0,4
+201902,20256,DIG,211,Surveillance Culture,169,57,4,30,27
+201902,20259,DIG,220,Electronic Literature,173,57,3,27,25
+201902,20493,DIG,250,Game Development,40,18,0,10,11
+201902,20258,DIG,340,Gender and Technology,74,28,2,13,24
+201902,20257,DIG,404,Humanities Startup,30,15,2,10,10
+201902,20046,ECO,101,Introductory Economics,150,63,0,24,30
+201902,20047,ECO,101,Introductory Economics,142,69,20,30,30
+201902,20048,ECO,101,Introductory Economics,122,57,2,22,30
+201902,20049,ECO,105,Stats & Basic Econometrics,114,61,4,14,13
+201902,20050,ECO,105,Stats & Basic Econometrics,153,76,23,13,13
+201902,20051,ECO,105,Stats & Basic Econometrics,115,72,12,13,13
+201902,20052,ECO,105,Stats & Basic Econometrics,94,53,5,13,13
+201902,20053,ECO,202,Intermed Microeconomic Theory,143,64,11,39,30
+201902,20054,ECO,202,Intermed Microeconomic Theory,180,90,22,38,35
+201902,20055,ECO,203,Intermed Macroeconomic Theory,218,100,23,33,30
+201902,20056,ECO,203,Intermed Macroeconomic Theory,213,96,19,34,30
+201902,20057,ECO,205,Econometrics,48,35,5,13,13
+201902,20066,ECO,205,Econometrics,59,41,23,13,13
+201902,20606,ECO,205,Econometrics,45,37,10,12,13
+201902,20607,ECO,205,Econometrics,38,27,3,8,13
+201902,20040,ECO,211,Introduction to Accounting,316,103,13,35,30
+201902,20045,ECO,212,Intermediate Accounting,162,57,6,22,30
+201902,20058,ECO,214,Introduction to Finance,184,67,6,26,30
+201902,20545,ECO,227,Economics of Gender & Family,283,89,2,30,30
+201902,20062,ECO,234,Latin American Economic Dev,185,68,2,29,30
+201902,20067,ECO,320,Psychology & Economics,231,76,4,18,20
+201902,20060,ECO,385,Forecasting,70,26,2,9,25
+201902,20063,ECO,495,"""Great"" Books in Economics",27,17,3,10,10
+201902,20065,ECO,495,Eco Foreign Direct Investment,28,21,2,10,10
+201902,20068,ECO,495,Honors Thesis,39,11,0,9,14
+201902,20384,ECO,495,US Income Inequality,68,45,17,12,10
+201902,20534,ECO,495,Geography of Prosperity,67,43,16,12,10
+201902,20569,ECO,495,Milestones in Economic Thought,32,24,2,9,10
+201902,20529,EDU,151,Intro to Educ Technology,68,28,0,28,30
+201902,20023,EDU,221,Schools and Society,354,114,0,30,30
+201902,20531,EDU,255,Educational Linguistics,74,28,1,12,20
+201902,20022,EDU,292,Theory of Sports Coaching ,429,123,11,30,30
+201902,20189,EDU,300,The Politics of Education,159,52,7,21,20
+201902,20190,EDU,305,Critical Issues in Higher Ed,94,39,3,24,30
+201902,20016,ENG,110,Graphic Med:Drawing Disability,256,76,3,30,30
+201902,20378,ENG,110,World's Greatest Short Stories,296,103,1,25,26
+201902,20167,ENG,201,Intro to the Essay,78,30,1,11,14
+201902,20387,ENG,205,Screenwriting,137,54,3,15,14
+201902,20386,ENG,211,Filmmaking,143,58,2,8,10
+201902,20020,ENG,220,Literary Analysis,61,25,5,12,20
+201902,20021,ENG,220,Literary Analysis,55,20,1,13,20
+201902,20527,ENG,242,Register for CRN 20526 THE 242,8,3,0,0,0
+201902,20514,ENG,255,Educational Linguistics,28,13,0,3,10
+201902,20302,ENG,260,British Literature Since 1800,46,21,0,7,30
+201902,20530,ENG,262,Bodies at Risk in Amer Drama,138,45,2,24,30
+201902,20377,ENG,280,Mystery & Romance of the West,67,30,2,11,30
+201902,20316,ENG,286,African-Amer Lit Since 1900,57,25,2,11,30
+201902,20018,ENG,290,World Literatures,103,35,1,14,30
+201902,20017,ENG,292,Documentary Film,78,28,0,16,30
+201902,20566,ENG,307,Forms of Fiction,104,46,5,18,20
+201902,20334,ENG,309,Forms of Poetry,114,38,3,16,18
+201902,20388,ENG,311,Advanced Filmmaking,13,7,1,3,5
+201902,20449,ENG,360,Desire,70,35,3,14,30
+201902,20029,ENG,375,Fan Fiction,136,52,10,26,30
+201902,20379,ENG,386," Law, Literature, and Film",94,33,0,14,20
+201902,20303,ENG,394,"Nationalism, Race & Empire",85,31,1,7,30
+201902,20318,ENG,401,Literary Journalism,57,23,3,13,12
+201902,20571,ENG,406,Digital Design,59,21,4,14,12
+201902,20019,ENG,415,James Baldwin,49,27,6,8,6
+201902,20168,ENG,455,Milton & Paradise Lost,72,39,15,13,10
+201902,20448,ENG,499,Senior Honors Thesis,23,7,0,8,12
+201902,20179,ENV,120,Intro to Environmental Geology,68,33,7,8,8
+201902,20180,ENV,120,Intro to Environmental Geology,57,33,4,8,8
+201902,20181,ENV,120,Intro to Environmental Geology,77,37,9,8,7
+201902,20182,ENV,120,Intro to Environmental Geology,96,47,10,8,7
+201902,20183,ENV,201,Environmental Science,97,46,14,17,15
+201902,20184,ENV,201,Environmental Science,106,51,11,16,15
+201902,20164,ENV,203,Environmental Humanities,137,38,8,30,28
+201902,20186,ENV,255,Health and Reproduction,241,87,1,30,30
+201902,20165,ENV,256,Environmental History,197,62,0,30,30
+201902,20166,ENV,273,"Art, Activism & Environment",86,27,2,27,30
+201902,20603,ENV,275,Urban Ecology,152,46,4,21,20
+201902,20185,ENV,351,Environmental Social Movements,59,22,1,5,15
+201902,20178,ENV,401,Environmental Studies Seminar,55,17,2,19,20
+201902,20554,ENV,401,Environmental Studies Seminar,6,5,1,4,5
+201902,20516,FMS,311,Advanced Filmmaking,11,4,1,4,5
+201902,20336,FRE,102,Elementary French II,59,23,2,6,18
+201902,20346,FRE,102,Elementary French II,70,26,2,15,18
+201902,20337,FRE,201,Intermed Fre/Davidson Exposure,55,21,5,14,15
+201902,20345,FRE,201,Intermed Fre/Davidson Exposure,54,18,0,6,18
+201902,20338,FRE,212,Oral Expression,49,16,1,9,16
+201902,20344,FRE,225,Intro Lit: Rich and Poor,104,31,1,17,18
+201902,20343,FRE,260,Contemporary France,67,24,0,12,20
+201902,20341,FRE,313,Advanced Grammar Review,57,17,1,16,16
+201902,20581,FRE,320,"Husbands, Wives & Lovers",81,27,0,10,20
+201902,20582,FRE,362,Gender & Sexuality in Maghreb,70,26,1,6,20
+201902,20339,FRE,491,Senior Capstone Project,28,6,0,7,12
+201902,20450,GER,102,Elementary German II,34,14,0,11,20
+201902,20451,GER,102,Elementary German II,41,14,2,13,20
+201902,20564,GER,250,Intro to Literary Studies,47,18,0,8,15
+201902,20565,GER,342,Adaptation (In Transl),51,15,1,7,30
+201902,20454,GER,351,"Race, Gender, Migration",8,4,0,6,20
+201902,20141,GRE,103,Intens Elem Greek (2 credits),28,7,0,4,20
+201902,20028,GRE,233,Grk Drama: Euripides Cyclops,22,5,0,3,9
+201902,20521,GRE,333,Adv Grk Drama: Eurip Cyclops,18,4,0,5,10
+201902,20490,GSS,101,Intro to Gender & Sexuality,235,95,2,28,27
+201902,20491,GSS,201,Feminist & Queer Theories,103,43,2,15,20
+201902,20494,GSS,345,Queer Immigration and Diaspora,98,41,3,14,16
+201902,20557,GSS,370,Global South Feminisms,55,24,0,13,20
+201902,20572,GSS,432,Queering Trnsformative Justice,65,30,6,12,9
+201902,20393,HHV,110,Introduction to Public Health,191,74,2,27,30
+201902,20298,HHV,220,Health Psychology,295,111,8,15,15
+201902,20543,HHV,292,Intro to Epidemiology,99,48,2,19,30
+201902,20567,HHV,370,"Nutrition, Bodies, and Health",129,55,6,12,12
+201902,20395,HHV,373,Food and Nutrition Policy,63,28,2,7,12
+201902,20504,HIS,122,Europe since 1789,178,72,2,30,30
+201902,20398,HIS,141,19th Century US History,221,82,5,31,30
+201902,20396,HIS,176,The Middle East 1453 - Present,308,118,1,25,30
+201902,20399,HIS,184,East Asian Hist 1850 - Present,110,41,2,26,30
+201902,20401,HIS,225,Women & Work:Britain 1700-1918,48,24,2,9,20
+201902,20601,HIS,226,Soviet Repression & Liberation,219,80,1,23,20
+201902,20400,HIS,242,Origins American South,92,36,2,17,20
+201902,20404,HIS,255,American Popular Culture,185,64,1,14,20
+201902,20403,HIS,288,Environmental China,132,51,2,18,20
+201902,20406,HIS,301,Making History,63,20,1,20,20
+201902,20602,HIS,333,Empire Jews,124,45,3,22,20
+201902,20409,HIS,336,Sexual Revolutions in Europe,93,39,3,14,30
+201902,20407,HIS,351,Native America to 1840,200,61,2,28,30
+201902,20405,HIS,372,Egypt: From Soup to Nuts,171,60,3,20,30
+201902,20410,HIS,449,Age of Revolution: US in 1960s,62,22,4,11,12
+201902,20499,HIS,459,Topic: History Rape in the US,28,11,2,10,8
+201902,20411,HIS,470,Global War on Terror,59,24,8,14,12
+201902,20412,HIS,489,Kelley Honors Seminar,18,7,0,7,10
+201902,20428,HUM,104,Connections and Conflicts II,131,68,2,68,70
+201902,20429,HUM,104,Register for CRN 20428 sect 0,2,1,0,0,0
+201902,20430,HUM,104,Register for CRN 20428 sect 0,0,0,0,0,0
+201902,20431,HUM,104,Register for CRN 20428 sect 0,0,0,0,0,0
+201902,20432,HUM,104,Register for CRN 20428 sect 0,0,0,0,0,0
+201902,20433,HUM,104,Register for CRN 20428 sect 0,0,0,0,0,0
+201902,20556,HUM,196,Adv Studies in Humanities II,1,1,0,7,10
+201902,20187,LAS,101,Intro Latin American Studies,116,42,4,29,30
+201902,20589,LAS,245,Race and Ethnicity in Lat Am,33,12,0,2,30
+201902,20520,LAS,273,Register for CRN 20166 ENV 273,4,1,0,0,0
+201902,20590,LAS,321,Indigenous Politics in Lat Am,17,9,0,2,15
+201902,20591,LAS,353,Practical Encounters Latinx,9,5,0,5,15
+201902,20142,LAT,102,Elementary Latin II,31,11,0,9,20
+201902,20290,LAT,288,Transition to Empire,17,6,0,1,9
+201902,20523,LAT,388,Adv Transition to Empire,41,11,1,10,10
+201902,20335,LIT,432,Theory & Prac Lit Translation,64,21,3,12,12
+201902,20613,MAT,105,Introduction to Statistics,225,82,6,23,26
+201902,20146,MAT,108,Exploring Mathematical Ideas,98,30,5,19,20
+201902,20147,MAT,112,Calculus I and Modeling,140,56,9,26,26
+201902,20148,MAT,112,Calculus I and Modeling,101,41,2,26,26
+201902,20149,MAT,113,Calculus II,136,52,12,28,26
+201902,20160,MAT,140,Multivar Calculus & Modeling,103,34,3,18,26
+201902,20150,MAT,150,Linear Algebra,112,33,2,23,24
+201902,20153,MAT,150,Linear Algebra,57,23,1,16,24
+201902,20151,MAT,160,Calculus III,84,25,5,25,26
+201902,20154,MAT,210,Mathematical Modeling,167,63,19,30,24
+201902,20511,MAT,220,Register for CRN 20002 CSC 220,10,3,0,0,0
+201902,20152,MAT,230,Sets and Proofs,90,25,7,19,20
+201902,20155,MAT,315,Numerical Analysis,94,26,3,11,24
+201902,20156,MAT,325,Graph Theory,129,38,1,25,30
+201902,20157,MAT,331,Complex Analysis,54,19,0,6,30
+201902,20158,MAT,360,Topology,69,21,0,9,30
+201902,20219,MUS,102,Contemporary Music Theory,62,23,2,14,20
+201902,20212,MUS,121,Music in Western Civilization,60,27,0,13,30
+201902,20218,MUS,201,Harmony,43,14,1,10,20
+201902,20222,MUS,222,Women in Music,106,36,2,20,20
+201902,20221,MUS,228,Film Music,105,37,2,15,20
+201902,20214,MUS,234,Mus of Southern Appalachia,62,28,1,12,30
+201902,20215,MUS,265,Intro Digital Music Comp,52,20,7,6,5
+201902,20319,PHI,102,Reason and Argument,200,81,5,29,30
+201902,20320,PHI,106,Early Mod European Philosophy,197,68,6,30,30
+201902,20321,PHI,110,Problems of Philosophy,232,79,1,29,30
+201902,20330,PHI,140,Environmental Ethics,98,51,0,21,30
+201902,20322,PHI,160,Great Philosophers: Aristotle,174,69,11,27,30
+201902,20329,PHI,211,Theory of Knowledge,114,48,0,29,30
+201902,20323,PHI,212,Metaphysics,68,32,0,17,30
+201902,20324,PHI,215,Ethics,356,125,6,29,30
+201902,20390,PHI,217,Philosophy of Mind,130,53,0,26,30
+201902,20588,PHI,219,Freedom and Responsibility,104,40,1,17,30
+201902,20325,PHI,350,Persons and Values,51,20,1,10,16
+201902,20327,PHI,451,Senior Colloq in Philosophy,56,12,1,12,16
+201902,20272,PHY,106,Astronomy,88,52,9,14,16
+201902,20284,PHY,106,Astronomy,100,52,6,14,16
+201902,20273,PHY,130,General Phys I w/Calculus,83,37,7,15,16
+201902,20285,PHY,130,General Phys I w/Calculus,124,49,2,16,16
+201902,20274,PHY,200,Computational Physics,89,23,5,18,20
+201902,20275,PHY,201,Math Methods for Scientists,70,17,1,15,20
+201902,20276,PHY,220,General Physics II,85,36,2,13,16
+201902,20287,PHY,220,General Physics II,83,31,1,16,16
+201902,20277,PHY,230,General Phys II w/Calculus,60,24,3,11,16
+201902,20288,PHY,230,General Phys II w/Calculus,47,27,6,14,16
+201902,20278,PHY,335,Advanced Laboratory,72,18,1,20,8
+201902,20279,PHY,350,Electricity & Magnetism,45,15,3,13,20
+201902,20283,PHY,410,Intermediate Astrophysics,45,11,1,12,20
+201902,20229,POL,101,Contemp Political Ideologies,99,47,4,28,30
+201902,20230,POL,121,American Politics,59,28,3,9,30
+201902,20231,POL,121,American Politics,76,37,1,26,30
+201902,20239,POL,121,American Politics,34,14,0,3,30
+201902,20232,POL,140,Comparative Global Politics,174,62,5,30,30
+201902,20233,POL,140,Comparative Global Politics,65,23,2,11,30
+201902,20234,POL,161,Intro to Int'l Relations,169,71,9,30,30
+201902,20188,POL,180,Intro to Policy Analysis,120,45,3,34,30
+201902,20235,POL,182,Intro to Research Methods,172,76,28,31,30
+201902,20240,POL,202,Classical Political Theory,229,84,14,31,30
+201902,20241,POL,220,The U.S. Congress,240,95,9,35,30
+201902,20244,POL,225,Public Policy,460,147,12,34,28
+201902,20237,POL,228,US Environ Politics & Policy,77,34,1,16,30
+201902,20251,POL,239,Social Movements & Change US,143,52,3,21,30
+201902,20350,POL,239,News Industry & Democracy,58,20,1,13,30
+201902,20238,POL,241,Comparative Public Policy,182,72,7,29,30
+201902,20604,POL,284,U.S. Diplomacy in First Person,98,31,3,25,30
+201902,20236,POL,291,Politics of the Middle East,130,54,8,29,30
+201902,20228,POL,293,Politics of the Americas,43,20,1,6,12
+201902,20242,POL,304,Foundations of Liberalism,81,32,2,17,30
+201902,20243,POL,327,Civil Liberties,198,68,2,30,30
+201902,20247,POL,347,Politics of Development,102,34,2,21,30
+201902,20249,POL,348,Pol of Russia and East Europe ,95,35,3,16,30
+201902,20245,POL,364,International Security,116,41,3,19,30
+201902,20250,POL,379,Comparative Campaigns&Election,70,29,2,16,30
+201902,20248,POL,401,Thucydides Justice War,25,7,1,6,12
+201902,20246,POL,403,Sem: Against Liberal Democracy,14,6,1,7,12
+201902,20254,POL,430,The Politics of Youth,15,6,1,4,12
+201902,20252,POL,444,Nationalism,32,14,4,11,12
+201902,20253,POL,462,Statebuilding & Peacebuilding,48,15,2,12,12
+201902,20255,POL,468,International Law&Human Rights,27,7,0,5,12
+201902,20070,PSY,101,General Psychology,116,54,3,33,40
+201902,20071,PSY,101,General Psychology,117,52,1,33,40
+201902,20072,PSY,101,General Psychology,238,87,9,38,40
+201902,20561,PSY,101,General Psychology,155,66,4,32,40
+201902,20522,PSY,220,Health Psychology,10,5,1,17,15
+201902,20075,PSY,232,Social Psychology,408,147,11,32,32
+201902,20074,PSY,245,Psychology of Aging,283,104,3,32,32
+201902,20081,PSY,260,Organization Development,111,44,0,30,30
+201902,20076,PSY,280,Human Neuropsychology,268,107,17,33,32
+201902,20562,PSY,284,Drugs and Behavior,208,80,0,29,32
+201902,20073,PSY,301,Psy Res:Perception & Attention,66,34,15,5,4
+201902,20289,PSY,301,Psy Res:Perception & Attention,25,21,3,4,3
+201902,20583,PSY,301,Psy Res:Perception & Attention,41,33,9,4,4
+201902,20584,PSY,301,Psy Res:Perception & Attention,28,21,3,5,4
+201902,20069,PSY,302,Psy Res:Behavior Pharmacology,30,18,3,4,3
+201902,20161,PSY,302,Psy Res:Behavior Pharmacology,19,13,1,4,3
+201902,20585,PSY,302,Psy Research: Behavior Pharm,31,19,2,4,3
+201902,20586,PSY,302,Psy Research: Behavior Pharm,20,16,3,4,3
+201902,20082,PSY,310,Psy Res:Design & Analysis,73,43,25,24,20
+201902,20548,PSY,317,Methods in Cultural Psychology,31,16,10,10,10
+201902,20587,PSY,317,Methods in Cultural Psychology,44,22,6,10,5
+201902,20084,PSY,352,Adv Sem:Counseling Psychology,97,36,6,12,11
+201902,20549,PSY,367,Psychological Modeling,26,11,5,13,11
+201902,20078,PSY,401,Issues in Psychology,112,43,9,12,10
+201902,20079,PSY,401,Issues in Psychology,47,27,0,10,10
+201902,20080,PSY,401,Issues in Psychology,77,35,4,10,10
+201902,20077,PSY,402,History & Systems in Psy,42,22,3,10,10
+201902,20211,REL,140,Sin/Redempt in Christn Thought,53,22,1,9,30
+201902,20480,REL,143,Being Human,307,96,0,31,30
+201902,20479,REL,150,Intro to Christian Ethics,348,110,1,31,30
+201902,20311,REL,163,Imagining Race and Religion,242,87,3,33,30
+201902,20314,REL,173,Shiism (& Sunni Islam),87,28,0,9,30
+201902,20014,REL,244,Modern Jewish Literature,91,39,0,4,30
+201902,20577,REL,247,Black and Womanist Theology,124,50,1,26,30
+201902,20264,REL,256,"Religion, Ethics & Medicine",348,115,3,30,29
+201902,20633,REL,263,Scripting the Word,0,0,0,3,15
+201902,20481,REL,271,Classical Buddhism,137,48,1,17,30
+201902,20315,REL,273,Catholicism & Shiism,78,30,1,18,30
+201902,20313,REL,278,Islamic City,107,33,0,12,30
+201902,20304,REL,282,Tibetan Religions,188,62,1,29,30
+201902,20385,REL,301,Perspectives Study of Rel,21,7,1,3,30
+201902,20015,REL,320,The Genesis Narrative,53,22,1,10,30
+201902,20307,REL,371,Hindu Spirituality,67,27,1,11,30
+201902,20305,REL,382,Zen Buddhism,155,49,2,16,30
+201902,20478,REL,458,"Calvin's ""Institutes""",61,17,1,12,12
+201902,20308,RUS,102,Elementary Russian II,30,10,0,8,20
+201902,20309,RUS,202,Intermediate Russian II,17,6,0,3,20
+201902,20578,RUS,293,The Ballets Russes (in transl),47,15,0,7,30
+201902,20620,SOC,101,Introductory Sociology,0,0,0,15,30
+201902,20104,SOC,105,"Race, Religion, & Donald Trump",115,47,0,9,30
+201902,20105,SOC,201,Social Statistics,127,48,8,20,20
+201902,20503,SOC,205,Racial and Ethnic Relations,90,34,0,10,30
+201902,20513,SOC,221,Register for CRN 20023 EDU 221,3,2,0,0,0
+201902,20579,SOC,264,Latinxs in the South,70,32,2,21,30
+201902,20558,SOC,305,"Migrants,Refugees, & Stateless",97,39,2,19,20
+201902,20510,SOC,315,Media Effects,76,41,5,9,10
+201902,20106,SOC,331,Community Engagement & Change,62,20,0,10,12
+201902,20107,SOC,370,Major Sociological Theorists,47,19,0,13,20
+201902,20559,SOC,391,Survey Research Methods,88,30,7,17,20
+201902,20501,SOC,393,Comparative-Historical Methods,65,20,1,11,20
+201902,20108,SOC,440,"Marriage,Divorce,Remarriage",56,19,4,12,15
+201902,20354,SPA,101,Elementary Spanish I,120,54,23,18,18
+201902,20355,SPA,102,Elementary Spanish II,122,48,15,16,18
+201902,20359,SPA,102,Elementary Spanish II,139,52,9,18,18
+201902,20360,SPA,102,Elementary Spanish II,108,38,1,18,18
+201902,20361,SPA,102,Elementary Spanish II,51,26,1,17,18
+201902,20356,SPA,201,Intermediate Spanish,51,25,0,18,18
+201902,20362,SPA,201,Intermediate Spanish,200,82,22,18,18
+201902,20363,SPA,201,Intermediate Spanish,84,38,2,17,18
+201902,20364,SPA,201,Intermediate Spanish,107,47,4,16,18
+201902,20365,SPA,201,Intermediate Spanish,145,66,9,19,18
+201902,20357,SPA,260,Spanish Conversation & Comp,102,40,4,17,16
+201902,20366,SPA,260,Spanish Conversation & Comp,98,36,3,16,16
+201902,20367,SPA,260,Spanish Conversation & Comp,47,17,0,5,16
+201902,20368,SPA,271,Hispanic Humanities I,56,22,2,11,20
+201902,20369,SPA,271,Hispanic Humanities I,63,21,1,8,20
+201902,20370,SPA,272,Hispanic Humanities II,78,28,1,12,20
+201902,20371,SPA,272,Hispanic Humanities II,96,35,4,15,20
+201902,20376,SPA,305,Intro to Hispanic Linguistics,123,45,4,21,20
+201902,20372,SPA,310,Literature of Latinx Jews,119,38,2,20,20
+201902,20375,SPA,340,Latin Amer Literature I,95,32,1,16,20
+201902,20374,SPA,341,Latin American Literature II,29,10,0,4,20
+201902,20358,SPA,354,Dying of Love in Mediev Iberia,112,34,1,18,20
+201902,20373,SPA,402,Travel&Transformation in Spain,82,28,3,15,12
+201902,20476,THE,110,Thinking Creatively,305,108,3,31,30
+201902,20477,THE,200,Intro to Theatre Prod & Tech,35,14,0,12,12
+201902,20526,THE,242,Womn's Work:Female Playwrights,67,22,0,7,13
+201902,20461,THE,245,Acting I,147,62,8,13,12
+201902,20475,THE,245,Acting I,149,60,0,13,12
+201902,20460,THE,270,Digital Entertainment Design,48,17,0,12,12
+201902,20462,THE,371,World Theatre History,32,10,0,8,16
+201902,20459,THE,386,Voice Movement for Actors&Lab,42,14,3,7,10
+201902,20456,THE,436,Advanced Lighting Design,5,4,0,3,4
+201902,20457,THE,455,Directing II,19,7,4,4,4
+201902,20332,WRI,101,Good Argument,30,16,2,7,12
+201902,20458,WRI,101,Who Killed Jesus?,29,11,1,6,12
+201902,20463,WRI,101,Astrobiology Life in Universe,47,25,5,9,12
+201902,20464,WRI,101,True Crime,113,57,15,12,12
+201902,20465,WRI,101,Religion and Violence,43,27,7,12,12
+201902,20468,WRI,101,"Nuclear Science, Tech, &Policy",50,21,6,12,12
+201902,20469,WRI,101,"Voice, Noise, Sound, Sense",35,17,2,9,12
+201902,20470,WRI,101,"Voice, Noise, Sound, Sense",42,14,2,8,12
+201902,20471,WRI,101,Irrationality,65,29,1,12,12
+201902,20472,WRI,101,Good Argument,37,19,1,10,12
+201902,20473,WRI,101,Good Argument,59,25,6,12,12
+201902,20474,WRI,101,Science versus Religion,80,34,5,12,12
+201902,20502,WRI,101,Denial and the Holocaust,52,21,6,12,12
+201902,20547,WRI,210,Rhetorics of Gender&Sexuality,61,24,2,15,16

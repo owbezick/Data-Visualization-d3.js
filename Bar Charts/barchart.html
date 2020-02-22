@@ -1,0 +1,114 @@
+<body>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+
+  <style>
+    * {
+      font-family: sans-serif;
+    }
+    .bar-chart {
+      border: solid 1px gray;
+    }
+    .bar {
+      fill: orange;
+    }
+    .label {
+      font-size: 9pt;
+    }
+    .category {
+      text-anchor: end;
+    }
+  </style>
+  <script>
+
+    var margin = {top: 20, right: 20, bottom: 30, left:40}
+      , width = 960 - margin.left - margin.right
+      , height = 500 - margin.top - margin.bottom;
+
+    var svg = d3.select("body").append("svg")
+      .attr("width", width + margin.left + margin.right)
+      .attr("height", height + margin.top + margin.bottom)
+      .attr("class","bar-chart")
+      .append("g")
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+    data = d3.csv("dataClass.csv").then(data => {
+      data.forEach(d => {
+        //Type conversions
+        d.lines = +d.lines; //convert to a number
+        d.time = +d.time;
+        d.highlight = d.highlight === "TRUE"; //turns into boolean
+      });
+      console.log(data);
+
+      avgData = {};
+      const id = d => d.lines + "_" + d.highlight;
+
+      data.forEach(d => {
+        const curID = id(d);
+        if (!avgData.hasOwnProperty(curID)){
+          avgData [curID] = {
+            lines:d.lines,
+            times: [],
+            highlight: d.highlight,
+            label: d.lines + ", " + d.highlight
+            };
+          }
+          avgData[curID].times.push(d.time);
+        });
+     console.log(avgData)
+
+     avgData = d3.values(avgData);
+
+     avgData.forEach(d => {
+       d.time = d3.mean(d.times);
+     })
+
+     avgData.sort((a,b) => {
+       if(a.lines === b.lines) return d3.descending (a.highlight, b.highlight)
+       else return d3.ascending(a.lines, b.lines);
+     });
+
+     const x = d3.scaleBand()
+                 .rangeRound([0,width])
+                 .padding(0.1)
+                 .domain(avgData.map(d => d.label));
+
+     const y = d3.scaleLinear()
+                .rangeRound([height, 0 ])
+                .domain([0, d3.max(avgData, d => d.time)]);
+
+     const max = d3.max(players, d => d.time);
+     greenColorScale - d3.scaleLinear()
+        .domain([0, max])
+        .range(["#ccece6", "#00441b"])
+     notGreenColorScale - d3.scaleLinear()
+         .domain([0, max])
+         .range(["#c994c7", "#dd1c77"])
+
+     const entries =  svg.selectAll("g")
+                         .data(avgData)
+                         .enter()
+                         .append("g");
+
+      entries.each(function(d,i) {
+      const entry = d3.select(this);
+
+        entry.append("rect")
+             .attr("class", "bar")
+             .attr("x", x(d.label))
+             .attr("width". x.bandwidth())
+             .attr("y", y(d.time))
+             .attr("height", height - y(d.time))
+             .style("fill", d.highlight ? greenColorScale(d.time) : notGreenColorScale(d.time);
+      });
+
+
+      svg.append("g")
+         .attr("transform", "translate(0," + height + ")")
+         .call(d3.axisBottom(x));
+      svg.append("g")
+         .call(d3.axisLeft(y));
+
+      });
+  </script>
+</body>

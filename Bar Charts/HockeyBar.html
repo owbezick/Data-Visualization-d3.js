@@ -1,0 +1,125 @@
+
+<head>
+  <title>Top 10 NHL Players by Number of Awards Won</title>
+</head>
+
+
+<body>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+
+  <style>
+    * {
+      font-family: sans-serif;
+    }
+    .bar-chart {
+      border: solid 1px gray;
+    }
+    .bar {
+      fill: #3774cd;
+    }
+    .label {
+      font-size: 9pt;
+    }
+    .category {
+      text-anchor: end;
+    }
+    .headerStyle {
+        color: black;
+        font: 50px courier;
+        text-align: center;
+    }
+  </style>
+
+  <script>
+    const numPlayers = 10;
+    const wid = 125;
+    var margin = {top: 20, right: 20, bottom: 30, left:40}
+      , width = (wid*numPlayers) - margin.left - margin.right
+      , height = 500 - margin.top - margin.bottom;
+
+    var svg = d3.select("body").append("svg")
+      .attr("width", width + margin.left + margin.right)
+      .attr("height", height + margin.top + margin.bottom)
+      .attr("class","bar-chart")
+      .append("g")
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+    //read in the data
+    data = d3.csv("AwardsPlayers.csv").then(data => {
+      players = {}
+      data.forEach(d => {
+        for (var i = 0; i < 2; i++){
+          const curID = d.playerID;
+          if (!players.hasOwnProperty(curID)){
+            players[curID] = {count: 1, tag: curID};
+          }else{
+            players[curID] = {count: players[curID].count+1, tag: curID};
+          }
+        }
+    })
+      ///console.log(players);
+    players = d3.values(players);
+    players.sort((a,b) => {
+        return d3.descending(a.count,b.count)
+      });
+
+     //console.log(players)
+
+     players = players.slice(0,numPlayers);
+
+      const x = d3.scaleBand()
+        .rangeRound([0,width])
+        .padding(0.5)
+        .domain(players.map(d => d.tag));
+
+      const y = d3.scaleLinear()
+        .rangeRound([height,0])
+        .domain([0,d3.max(players, d => d.count)]);
+
+      const max = d3.max(players, d => d.count);
+
+      purpleColorScale = d3.scaleLinear()
+            .domain([0, max])
+            .range(["#c994c7", "#dd1c77"])
+
+      const entries = svg.selectAll("g")
+        .data(players)
+        .enter()
+        .append("g");
+
+      entries.each(function(d,i){
+        const entry = d3.select(this); //using 'this' -> no function shorthand
+        entry.append("rect")
+          .attr("class", "bar")
+          .style("fill", purpleColorScale(d.count))
+          .attr("x", x(d.tag)) //gives location of x
+          .attr("width", x.bandwidth())
+          .attr("y", height)
+          .transition().duration(1000)
+          .attr("y", y(d.count))
+          .attr("height",  height - y(d.count))
+          .transition().duration(1000)
+        entry.append("text")
+          .text(""+d.count)
+          .style('fill', 'white')
+          .attr("x", x(d.tag) + 24)
+          .attr("y", height)
+          .transition().duration(1000)
+          .attr("y", y(d.count)+20)
+          .attr('font-size', '12px');
+          //.style("fill",d3.color(chart.current.color)
+                      //  .darker(colorScale(d[chart.current.key])));
+      });
+
+      svg.append("g")
+        .attr("transform","translate(0," + height + ")")
+        .call(d3.axisBottom(x));
+
+      svg.append("g")
+        .call(d3.axisLeft(y));
+    });
+
+
+
+  </script>
+</body>

@@ -1,0 +1,201 @@
+<head>
+  <title>Which Subjects Need More Professors?</title>
+</head>
+
+<body>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <!-- Set up basic webpage structure -->
+  <div id="header"></div>
+  <div id="subheader"></div>
+
+  <style>
+    * {
+      font-family: "Courier New", Courier, monospace;
+    }
+    h1 {
+      font-size: 40px;
+      text-align: center;
+      text-transform: uppercase;
+      text-shadow: 3px 2px #2c7fb8;
+      }
+    h2 {
+      font-size: 25px;
+      text-align: center;
+      }
+    h4 {
+      font-size: 15px;
+      text-align: center;
+        }
+    h3 {
+      font-size: 25px;
+      text-align: center;
+      text-transform: uppercase;
+      text-shadow: 3px 2px lightblue;
+      }
+    p {
+    font-size: 15px;
+    text-align: center;
+    }
+    .label {
+      font-size: 10pt;
+    }
+    .axisLabel {
+      font-size: 15pt;
+      text-shadow: 3px 2px lightblue;
+    }
+
+  </style>
+  <script>
+    // Header
+    const head = d3.select("#header");
+    head
+      .append("h1")
+      .text("Raise the Roof!")
+    // Subheader
+    const subHead = d3.select("#subheader");
+    subHead
+      .append("h2")
+      .text("the classroom roof...")
+    const subSubHead = d3.select("#subheader");
+    subSubHead
+      .append("h4")
+      .text("A visualization of classroom ceiling exceptions by Owen Bezick.")
+    // Graph
+    const numClasses = 10;
+
+    // Graph Margins
+    const wid = 115;
+    var margin = {top: 20, right: 20, bottom: 30, left: 115}
+      , width = (wid * numClasses) - margin.left - margin.right
+      , height = 500 - margin.top - margin.bottom;
+
+    var svg = d3.select("body").append("svg")
+      .attr("width", width + margin.left + margin.right + 100)
+      .attr("height", height + margin.top + margin.bottom + 175)
+      .attr("class", "bar-chart")
+      .append("g")
+      .attr("transform"
+      , "translate(" + margin.left + "," + margin.top + ")");
+
+    // Data
+    data = d3.csv("Webtree1920.csv").then(data => {
+      titles = {}
+      data.forEach(d => {
+        for (var i = 0; i < 2; i++){
+          const curTitle = d.COURSE_TITLE;
+          const currEnroll = d.CURR_ENROLL;
+          const maxEnroll = d.MAX_ENROLL;
+          titles[curTitle] = {title: curTitle, currEnroll: currEnroll
+            , maxEnroll: maxEnroll, dif: currEnroll - maxEnroll};
+        }
+    })
+  //  console.log(titles)
+    titles = d3.values(titles);
+    sortedTitlesDesc = titles.slice().sort((a, b) =>
+    d3.descending(a.dif, b.dif))
+    sortedTitlesAsc = titles.slice().sort((a, b) =>
+    d3.ascending(a.dif, b.dif))
+  // console.log(sortedTitlesAsc)
+    topTen = sortedTitlesDesc.slice(1, numClasses + 1); // Top ten array removing Child Pyschopathology because the ceiling was 0
+    bottomTen = sortedTitlesAsc.slice(0, numClasses);
+
+  // Top Ten Graphic
+      const max = d3.max(topTen, d => d.dif);
+      blueColorScale = d3.scaleLinear()
+        .domain([0, max])
+        .range(["#7fcdbb", "#2c7fb8"])
+      const x = d3.scaleBand()
+        .rangeRound([0,width])
+        .padding(0.5)
+        .domain(topTen.map(d => d.title));
+
+      const y = d3.scaleLinear()
+        .rangeRound([height,0])
+        .domain([0,d3.max(topTen, d => d.dif)]);
+
+      const entries = svg.selectAll("g")
+        .data(topTen)
+        .enter()
+        .append("g");
+
+      entries.each(function(d,i){
+      const graph = d3.select(this);
+        graph.append("rect")
+          .attr("class", "bar")
+          .style("fill", blueColorScale(d.dif))
+          .attr("x", x(d.title))
+          .attr("width", x.bandwidth())
+          .attr("y", height)
+          .transition().duration(1000)
+          .attr("y", y(d.dif))
+          .attr("height",  height - y(d.dif))
+          .transition().duration(1000)
+        graph.append("text")
+          .text(""+d.dif)
+          .style('fill', 'white')
+          .attr("x", x(d.title) + 16)
+          .attr("y", height)
+          .transition().duration(1000)
+          .attr("y", y(d.dif)+20)
+          .attr('font-size', '12px')
+      });
+      svg.append("g")
+        .attr("transform", "translate(0," + height + ")")
+        .call(d3.axisBottom(x))
+        .selectAll("text")
+        .attr("y", 10)
+        .attr("x", 0)
+        .attr("dy", ".35em")
+        .attr("transform", "rotate(25)")
+        .classed("label", true)
+        .style("text-anchor", "start");
+      svg.append("text")
+        .attr("transform",
+          "translate(" + (width/2) + " ," + (height + margin.top + 125) + ")")
+        .style("text-anchor", "middle")
+        .text("Class Title")
+        .classed("axisLabel", true);
+      svg.append("g")
+      .call(d3.axisLeft(y));
+      svg.append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("y", margin.left - 175)
+        .attr("x",0 - (height / 2))
+        .attr("dy", "1em")
+        .style("text-anchor", "middle")
+        .text("Students Above Ceiling")
+        .classed("axisLabel", true);
+
+    // The Problem Paragraph
+    const problem = d3.select("#problem");
+    problem
+      .append("h3")
+      .text("The Problem.")
+    problem
+      .append("p")
+      .text("Davidson boasts about its small class sizes, but is that always the case? Each semester, many classes go over the 'max enrollment' quota. Many students file a ceiling exception request to join classes they did not get on webtree, but need to graduate or are particularly interested in. For example, by the end of the first week of classes, the chair of the Math and Computer Science department will make any ceiling exceptions on a case-by-case basis.")
+
+    // Argument Paragraph
+    const argument = d3.select("#argument");
+      argument
+        .append("h3")
+        .text("The Argument.")
+      argument
+        .append("p")
+        .text("As the above graphic illustrates, there are a plethora of classes that exceed the 'max enrollment' quota. These classes tend to include lab sessions, be very focused in a specific discipline, or are just popular in general. Using data sets like this one, classes that tend to exceed the enrollment capacity could be distinguished and allotted larger rooms or multiple sections in the future.")
+
+    // Argument Paragraph
+    const explanation = d3.select("#explanation");
+      explanation
+        .append("h3")
+        .text("The Explanation.")
+      explanation
+        .append("p")
+        .text("I chose to show the ten classes with the highest count of students above the ceiling in a simple column bar chart. The x-axis labels are rotated 45 degrees for ease of reading the class titles. The colors of the bar scales from the darker shade of blue to the lighter shade of blue depending on the amount of students over the ceiling. I chose those shades of blue partly because I like them and partly because colorbrewer suggested them and they are colorblind safe.")
+    });
+  </script>
+
+  <div id="problem"></div>
+  <div id="argument"></div>
+  <div id="explanation"></div>
+</body>
