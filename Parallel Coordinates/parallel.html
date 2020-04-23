@@ -1,0 +1,209 @@
+<body>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+
+<style>
+
+  svg {
+    font: 12px sans-serif;
+  }
+
+  .background path {
+    fill: none;
+    stroke: #cccccc;
+    shape-rendering: crispEdges;
+  }
+
+  .foreground path {
+    fill: none;
+  }
+
+  .brush .extent {
+    fill-opacity: .3;
+    stroke: #fff;
+    shape-rendering: crispEdges;
+  }
+
+  .axis line,
+  .axis path {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+  }
+
+  .axis text {
+    text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+    cursor: move;
+  }
+
+</style>
+
+<script>
+
+  var margin = {top: 30, right: 100, bottom: 30, left: 45},
+      width = 960 - margin.left - margin.right,
+      height = 500 - margin.top - margin.bottom;
+
+  var x = d3.scalePoint().range([0, width], 1),
+      y = {},
+      dragging = {};
+      z = d3.scaleLinear(d3.schemeCategory10);
+
+  var line = d3.line().curve(d3.curveCatmullRom),
+      axis = d3.axisLeft(),
+      background,
+      foreground;
+
+  var svg = d3.select("body").append("svg")
+      .attr("width", width + margin.left + margin.right)
+      .attr("height", height + margin.top + margin.bottom)
+      .append("g")
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+  data = d3.csv("data.csv").then(data => {
+      data.forEach(d => {
+        d.conductance = (d.conductance === "") ? null : +d.conductance;
+        d.discharge = (d.discharge == "") ? null : +d.discharge;
+        d.temperature = (d.temperature == "") ? null : +d.temperature;
+        d.date = (d.date === "") ? null : new Date(d.date.split("-")[0], +d.date.split("-")[1] - 1, d.date.split("-")[2]);
+        d.time = (d.time === "") ? null : new Date(1900, 1, 1, d.time.split(":")[0], d.time.split(":")[1], d.time.split(":")[2]);
+      });
+
+  console.log(data)
+  //filter out data that has null values
+  data = data.filter(function(d){
+    return d.temperature !== null;
+    return d.discharge !== null;
+    return d.conductance !== null;
+    return d.date !== null;
+    return d.time !== null;
+  })
+  console.log(data)
+  smallData = data.filter(d => d.date.getTime() >= new Date(2017, 3, 1).getTime());
+  console.log(smallData)
+
+    // Extract the list of dimensions and create a scale for each.
+    dimensions = d3.keys(data[0]).filter(function(d) {
+      return d !== "location_id" && d !== "precipitation" && d !== "time_id";
+    });
+
+    x.domain(dimensions);
+  //  console.log(Object.keys(data[0]));
+    Object.keys(data[0]).forEach(k => {
+      if(k != "precipitation"){
+        y[k] = d3.scaleLinear()
+        .domain(d3.extent(data, d => d[k]))
+        .range([height,0])
+      }
+    })
+
+    z.domain(d3.extent(data, d => d.temperature)).range([height,0]);
+    // Add grey background lines for context.
+
+    background = svg.append("g")
+        .attr("class", "background")
+      .selectAll("path")
+        .data(smallData)
+      .enter().append("path")
+        .attr("d", path);
+
+    // Add foreground lines for focus.
+    foreground = svg.append("g")
+        .attr("class", "foreground")
+      .selectAll("path")
+        .data(smallData)
+      .enter().append("path")
+        .attr("d", path)
+        .style("stroke", d =>  z(d.key));
+
+
+    // Add a group element for each dimension.
+    var g = svg.selectAll(".dimension")
+        .data(dimensions)
+      .enter().append("g")
+        .attr("class", "dimension")
+        .attr("transform", function(d) { return "translate(" + x(d) + ")"; });
+
+    // Add an axis and title.
+    g.append("g")
+        .attr("class", "axis")
+        .each(function(d) {d3.select(this).call(axis.scale(y[d])); })
+          .append("text")
+          .attr("font-size", "16px")
+          .style("text-anchor", "middle")
+          .attr("y", -9)
+          .attr("fill", "black")
+        //.attr("x", 20)
+          .text(function(d) {console.log(d); return d; });
+
+    /****************Legend********************/
+    /*  var legendBox = 90;
+    // draw legend
+      var legend = svg.selectAll(".legend")
+        .data(YOUR DATA)
+          .enter().append("g")
+          .attr("class", "legend")
+          .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; })
+          .on("mouseover", function() {
+              d3.select(this).select("rect")
+              .style("stroke", color)
+              .style("opacity", 0.5);
+          })
+          .on("mouseout", function() {
+              d3.select(this).select("rect")
+              .style("stroke", "none")
+              .style("opacity", 1.0);
+          })
+          .on("click", function(d,i) {
+              foreground
+                  .style("stroke-width", 1)
+                  .style("stroke-opacity", 1);
+
+              foreground.filter(function(e) {return e["time_id"] !== i; })
+                  .style("stroke-width", 1)
+                  .style("stroke-opacity", 0.0);
+
+              background.filter(function(e) { return e["time_id"] === i; })
+                  .style("stroke-width", 1)
+                  .style("stroke-opacity", .1);
+
+              background.filter(function(e) { return e["time_id"] !== i; })
+                  .style("stroke-width", 1)
+                  .style("stroke-opacity", .1);
+
+          });
+
+    // draw legend colored rectangles
+    legend.append("rect")
+        .attr("x", width + 10)
+        .attr("y", margin.top)
+        .attr("rx", 5)
+        .attr("width", legendBox)
+        .attr("height", 20)
+        .style("fill", color);
+
+    // draw legend text
+    legend.append("text")
+        .attr("x", width + 10  + legendBox/2)
+        .attr("y", margin.top + 9)
+        .attr("dy", ".35em")
+        .attr("text-anchor", "middle")
+        .style("pointer-events", "none")
+        .text(function(d) {return formatTime(d);}); */
+  });
+
+  function position(d) {
+    var v = dragging[d];
+    return v == null ? x(d) : v;
+  }
+
+  function transition(g) {
+    return g.transition().duration(500);
+  }
+
+  // Returns the path for a given data point.
+  function path(d) {
+    return line(dimensions.map(function(p) { return [position(p), y[p](d[p])]; }));
+  }
+
+
+</script>
